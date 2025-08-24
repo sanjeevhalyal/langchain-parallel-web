@@ -1,6 +1,6 @@
 {
   "name": "langchain-parallel-web",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ParallelWeb integration for LangChain.js",
   "type": "module",
   "engines": {
