@@ -5,16 +5,30 @@ build-backend = "poetry.core.masonry.api"
 [tool.poetry]
 name = "langchain-parallel-web"
 version = "0.0.1a0"
-description = "An integration package connecting ParallelWeb and LangChain"
-authors = []
+description = "ParallelWeb integration for LangChain"
+authors = ["Sanjeev Halyal <1448731+sanjeevhalyal@users.noreply.github.com>"]
 readme = "README.md"
-repository = "https://github.com/langchain-ai/langchain"
 license = "MIT"
+repository = "https://github.com/sanjeevhalyal/langchain-parallel-web"
+homepage = "https://github.com/sanjeevhalyal/langchain-parallel-web"
+keywords = ["langchain", "parallel", "web", "llm", "ai"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.9",
+  "Typing :: Typed",
+]
 
 
 [tool.poetry.urls]
-"Source Code" = "https://github.com/langchain-ai/langchain/tree/master/libs/partners/parallel-web"
-"Release Notes" = "https://github.com/langchain-ai/langchain/releases?q=tag%3A%22parallel-web%3D%3D0%22&expanded=true"
+"Source Code" = "https://github.com/sanjeevhalyal/langchain-parallel-web"
+"Issues" = "https://github.com/sanjeevhalyal/langchain-parallel-web/issues"
+"Release Notes" = "https://github.com/sanjeevhalyal/langchain-parallel-web/releases"
 
 [tool.poetry.dependencies]
 python = ">=3.9,<4.0"
