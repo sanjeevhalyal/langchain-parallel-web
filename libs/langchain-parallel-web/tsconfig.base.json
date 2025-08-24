@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "moduleResolution": "nodenext",
+    "esModuleInterop": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "rootDir": "src",
+    "lib": ["ES2021", "ES2022.Object", "DOM"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist", "docs", "**/tests"]
+}
